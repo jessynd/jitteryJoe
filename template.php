@@ -15,3 +15,4 @@ function webcrafttheme_form_alter(&$form, &$form_state, $form_id) {
  	$form["field_rating"]["und"]["#suffix"] = "</div>";
      //add wrapper around ratings radio buttons
   }
+}

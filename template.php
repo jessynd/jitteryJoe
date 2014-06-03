@@ -14,10 +14,4 @@ function webcrafttheme_form_alter(&$form, &$form_state, $form_id) {
  	$form["field_rating"]["und"]["#prefix"] = "<div class='abc col-sm-12'>";
  	$form["field_rating"]["und"]["#suffix"] = "</div>";
      //add wrapper around ratings radio buttons
- 
-
-
   }
-  dsm($form_id);
-  dsm($form);
-}

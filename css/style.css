@@ -1,0 +1,25 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+
+.form-item-title {
+	width: 200px;
+}
+
+.form-type-radio {
+	float: left;
+	margin: 10px 10px;
+}
+
+.radio+.radio, .checkbox+.checkbox {
+	margin-top: 0;
+}
+
+.abc {
+	margin-bottom: 50px;
+}
+.vertical-tabs {
+	display: none;
+}

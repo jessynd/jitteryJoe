@@ -24,7 +24,7 @@
  * @ingroup views_templates
  */
 ?>
-<div class="col-sm-3">
+<div class="col-sm-3 review-card">
 <?php foreach ($fields as $id => $field): ?>
   <?php if (!empty($field->separator)): ?>
     <?php print $field->separator; ?>

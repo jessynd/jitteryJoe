@@ -3,6 +3,10 @@
  * remove this comment and start adding your styles to this file.
  */
 
+.region-sidebar-first {
+	background-color:#fff;
+}
+
 .logo img{
 	width:100%;
 	height:auto;
@@ -11,6 +15,10 @@
 
 .form-item-title {
 	width: 200px;
+}
+
+.page-header {
+	border-bottom:none;
 }
 
 .form-type-radio {

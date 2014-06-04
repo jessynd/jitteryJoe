@@ -80,6 +80,7 @@
       <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
         <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
       </a>
+      
       <?php endif; ?>
 
       <?php if (!empty($site_name)): ?>
@@ -160,7 +161,6 @@
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
-
   </div>
 </div>
 <footer class="footer container">

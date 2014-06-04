@@ -17,6 +17,10 @@
 	width: 200px;
 }
 
+.page-header {
+	border-bottom:none;
+}
+
 .form-type-radio {
 	float: left;
 	margin: 10px 10px;

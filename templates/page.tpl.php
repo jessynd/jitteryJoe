@@ -94,6 +94,7 @@
       
       <?php if ($logo): ?>
       <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>">
+
         <img src="<?php print $logo; ?>" alt="<?php print t('home'); ?>" />
       </a>  
       <?php endif; ?>

@@ -44,3 +44,54 @@ RIGHT SIDE STYLE
 ==========================================================*/
 
 
+.review-card {
+
+	padding: 2%;
+	background: rgba(217,179,104, 0.8);
+	width: 30%;
+	margin:1.5%;
+	height: 200px;
+	box-shadow: 0 2px 0px rgba(100,54,41, 0.5)
+
+}
+
+.review-card a {
+	text-decoration: none;
+	color: rgb(100,54,41);
+
+}
+
+.views-field-field-roast {
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.views-field-title {
+	display: none;
+}
+
+.views-field-body {
+	font-size: 14px;
+	text-align: center;
+	padding: 5px;
+	width: 95%;
+	float: left;
+}
+
+.views-field-body:before {
+	content: open-quote;
+	color: rgb(100,54,41);
+	font-size: 30px;
+	display: inline;
+	float: left;
+	width: :;
+}
+
+.views-field-body:after {
+	content: close-quote;
+	color: rgb(100,54,41);
+	font-size: 30px;
+	display: inline;
+	width: 2.5%;
+}
+

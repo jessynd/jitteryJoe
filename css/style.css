@@ -3,6 +3,7 @@
  * remove this comment and start adding your styles to this file.
  */
 
+/* LEFT SIDE CSS */
 .region-sidebar-first {
 	background-color:#fff;
 }
@@ -49,9 +50,6 @@
 	border:none;
 }
 
-.field-name-field-rating {
-	width:100%;
-}
 
 .field-type-text-with-summary.field-name-body.field-widget-text-textarea-with-summary {
 	margin-top:150px;

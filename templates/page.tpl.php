@@ -88,14 +88,20 @@
   <div class="row">
 
     <?php if (!empty($page['sidebar_first'])): ?>
+
       <aside class="col-sm-3 sidebar-first" role="complementary">
-              <?php if ($logo): ?>
-      <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>">
-        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-      </a>
+
       
+      <?php if ($logo): ?>
+      <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>">
+        <img src="<?php print $logo; ?>" alt="<?php print t('home'); ?>" />
+      </a>  
       <?php endif; ?>
-        <?php print render($page['sidebar_first']); ?>
+
+      <?php print render($page['sidebar_first']); ?>
+      
+
+      
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>
 

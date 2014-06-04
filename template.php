@@ -18,8 +18,3 @@ function webcrafttheme_form_alter(&$form, &$form_state, $form_id) {
 
 }
 
-function webcrafttheme_preprocess_page(&$variables) {
-   
-	$variables["content_column_class"] = "class='col-sm-9 main-region'";
-   
-}

@@ -93,7 +93,7 @@
 
       
       <?php if ($logo): ?>
-      <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>">
+      <a class="logo navbar-btn pull-left" href="ratings">
 
         <img src="<?php print $logo; ?>" alt="<?php print t('home'); ?>" />
       </a>  

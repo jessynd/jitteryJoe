@@ -3,6 +3,9 @@
  * remove this comment and start adding your styles to this file.
  */
 
+/*======================================================
+LEFT SIDE STYLE
+==========================================================*/
 .region-sidebar-first {
 	background-color:#fff;
 }
@@ -17,12 +20,32 @@
 	float:none !important;
 }
 
+.region-sidebar-first {
+	border:none;
+}
+
+.form-type-radio.form-item-field-rating-und.form-item.radio label {
+	float:left !important;
+}
+
+/*.field-type-text-with-summary.field-name-body.field-widget-text-textarea-with-summary {
+	margin-top:150px;
+}*/
+
+.form-type-radio.form-item-field-rating-und.form-item {
+	clear:both;
+}
+
 .form-item-title {
 	width: 200px;
 }
 
 .page-header {
 	border-bottom:none;
+}
+
+.form-textarea-wrapper.resizable {
+	resize:none !important;
 }
 
 .form-type-radio {
@@ -43,10 +66,6 @@
 
 .row {
 	margin-top:20px;
-}
-
-.region-sidebar-first {
-	border:none;
 }
 
 

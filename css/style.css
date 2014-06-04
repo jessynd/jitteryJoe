@@ -49,6 +49,17 @@
 	border:none;
 }
 
+.field-name-field-rating {
+	width:100%;
+}
+
+.field-type-text-with-summary.field-name-body.field-widget-text-textarea-with-summary {
+	margin-top:150px;
+}
+
+.form-type-radio.form-item-field-rating-und.form-item {
+	clear:both;
+}
 
 /*======================================================
 RIGHT SIDE STYLE

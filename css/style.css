@@ -3,6 +3,10 @@
  * remove this comment and start adding your styles to this file.
  */
 
+.logo img{
+	width:150px;
+	height:auto;
+}
 
 .form-item-title {
 	width: 200px;

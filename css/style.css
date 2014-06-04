@@ -3,6 +3,10 @@
  * remove this comment and start adding your styles to this file.
  */
 
+.region-sidebar-first {
+	background-color:#fff;
+}
+
 .logo img{
 	width:100%;
 	height:auto;

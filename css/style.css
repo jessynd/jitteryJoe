@@ -106,3 +106,11 @@ RIGHT SIDE STYLE
 	width: 2.5%;
 }
 
+svg {
+	width: 20%;
+	margin: 2px auto;
+	fill: rgb(100,54,41);
+	height: 44px;
+	text-align: center;
+
+}
